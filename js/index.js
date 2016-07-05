@@ -1,5 +1,6 @@
-$(document).ready(function()
-    {
-        allert('Hello world from jQuery!');
-        
-    });
+$(function()
+{
+    $('p').click(function(){
+        $('p').hide();
+    })
+});
