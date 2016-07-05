@@ -1,6 +1,6 @@
 $(function()
 {
     $('p').click(function(){
-        $('p').hide();
+        $('p').hide(5000);
     })
 });
